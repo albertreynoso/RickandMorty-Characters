@@ -1,0 +1,39 @@
+.CharacterCard {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.row {
+  padding: 0px;
+}
+
+.loader {
+  margin-left: 38vw;
+}
+.CharacterCard__name-container {
+  width: 100%;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  color: white;
+}
+.Logo__container {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background: black;
+}
+@media only screen and (max-width: 600px) {
+  .Logo {
+    width: 100%;
+  }
+}
